@@ -5,49 +5,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon premier site</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>Bienvenue sur le site de Oel</h1>
+    <header>
+        <h1>Bienvenue sur mon site</h1>
 
-    <p>je deviens progressivement un développeur web.</p>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>À propos de moi</h2>
+
+            <p class="important">
+                Je m'appelle Aymard Oel Mondjot.
+                Je suis en formation pour devenir développeur web professionnel.
+            </p>
+        </section>
+
+        <section>
+            <h2>Mes compétences</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mes objectifs</h2>
+
+            <ul>
+                <li>Maîtriser HTML</li>
+                <li>Apprendre CSS</li>
+                <li>Apprendre JavaScript</li>
+                <li>Créer des sites web professionnels</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mes projets</h2>
+
+            <div class="projets">
+
+                <div class="projet">
+                    <h3 class="titre-projet">Mon premier site web</h3>
+                   <img src="image/Mon premier-site-web.png" alt="Capture du premier site web">
+
+<p>Premier projet réalisé en HTML, CSS et JavaScript.</p>
+
+<p><strong>Technologies :</strong> HTML · CSS · JavaScript</p>
+
+                    <p>
+                        Mon premier site créé avec HTML et CSS dans le cadre de ma formation en développement web.
+                    </p>
+
+                    <a href="https://oel-19.github.io/mon-premier-site/">
+                        Voir le site
+                    </a>
+                </div>
+
+                <div class="projet">
+                    <h3 class="titre-projet">Ma page GitHub</h3>
+
+                    <p>
+                        Ma page GitHub où je présente mes projets et mon apprentissage en développement web.
+                    </p>
+
+                    <a href="https://github.com/oel-19">
+                        Voir ma page GitHub
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-competences">
+            <h2>Mes compétences techniques</h2>
+
+            <div class="competences">
+                <div class="carte">HTML</div>
+                <div class="carte">CSS</div>
+                <div class="carte">JavaScript</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Mon premier site web</p>
+        <a href="https://www.google.com">Visiter Google</a>
+    </footer>
+    <button id="bonjour">Clique ici</button>
+    <p id="message"></p>
+   <div class="calculatrice">
+    <h2>Ma calculatrice</h2>
+   <button id="modeSombre">🌙 Mode sombre</button> 
+
+    <input type="number" id="nombre1" placeholder="Premier nombre">
+<input type="number" id="nombre2" placeholder="Deuxième nombre">
+
+<select id="operation">
+    <option value="addition">Addition (+)</option>
+    <option value="soustraction">Soustraction (-)</option>
+    <option value="multiplication">Multiplication (×)</option>
+    <option value="division">Division (÷)</option>
+</select>
+<button id="calculer">Calculer</button>
+<button id="effacer">Effacer</button>
+    <p id="resultat"></p>
+   <h3 id="titreHistorique">Historique (0 calcul)</h3>
+<div id="historique"></div>
+<button id="viderHistorique">🗑️ Vider l'historique</button> 
+    <script src="js/script.js"></script>
 
 </body>
-
 </html>
-
-<h2>À propos de moi</h2>
-
-<p>Je suis en formation pour devenir un développeur web professionnel.</p>
-
-<h2>Mes objectifs</h2>
-
-<p>Créer des sites web modernes et utiles.</p>
-
-<p>Je suis en formation pour devenir <strong>développeur web professionnel</strong>.</p>
-
-<p>J'apprends actuellement le <em>HTML</em>.</p>
-
-<h4>Les technologies que je vais apprendre</h2>
-
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-</ul>
-
-<h5>Mon programme de formation</h2>
-
-<ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Git</li>
-</ol>
-
-<p>
-<a href="https://www.google.com">Visiter Google</a>
-</p>
-
-</body>
